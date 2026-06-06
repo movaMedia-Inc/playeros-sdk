@@ -9,8 +9,8 @@ This directory is already a local git repo with an initial commit. Create the re
 
 ```bash
 cd playeros-sdk
-gh repo create playeros/playeros-sdk --public --source=. --remote=origin --push
-# or: git remote add origin git@github.com:playeros/playeros-sdk.git && git push -u origin main
+gh repo create movaMedia-Inc/playeros-sdk --public --source=. --remote=origin --push
+# or: git remote add origin git@github.com:movaMedia-Inc/playeros-sdk.git && git push -u origin main
 ```
 
 The repo ships `AGENTS.md` (for coding agents) and `SKILL.md` (for skills.sh) at the root.

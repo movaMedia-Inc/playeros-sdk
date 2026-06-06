@@ -42,10 +42,10 @@
   "homepage": "https://playeros.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/playeros/playeros-sdk.git"
+    "url": "git+https://github.com/movaMedia-Inc/playeros-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/playeros/playeros-sdk/issues"
+    "url": "https://github.com/movaMedia-Inc/playeros-sdk/issues"
   },
   "author": "PlayerOS",
   "license": "MIT",
