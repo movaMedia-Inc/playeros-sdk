@@ -13,7 +13,7 @@
     }
   },
   "bin": {
-    "playeros": "./dist/cli.js"
+    "playeros": "dist/cli.js"
   },
   "files": [
     "dist",
