@@ -1,0 +1,59 @@
+{
+  "name": "@playeros/sdk",
+  "version": "0.1.0",
+  "description": "Official TypeScript/JavaScript SDK and CLI for the PlayerOS API — the casino marketing platform for gaming operators (players, campaigns, journeys, compliance).",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "playeros": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "AGENTS.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "playeros",
+    "casino",
+    "casino-marketing",
+    "gaming",
+    "player-engagement",
+    "crm",
+    "api",
+    "sdk",
+    "cli",
+    "mcp",
+    "ai-agent"
+  ],
+  "homepage": "https://playeros.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playeros/playeros-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/playeros/playeros-sdk/issues"
+  },
+  "author": "PlayerOS",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
